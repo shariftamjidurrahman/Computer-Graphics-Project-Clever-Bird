@@ -1286,7 +1286,7 @@ void myDisplay()
                 cloudBuilder();
                 birdLarge();
                 showTextLarge("Bird ", 0, 0, 0, 1, 30, 0);
-                showTextLarge("Forcy", 1, 0.4, 0.4, -7, 30, 0);
+                showTextLarge("Clever", 1, 0.4, 0.4, -7, 30, 0);
 
                 showTextSmall("Press      to start the game", 0, 0, 0, -14, -40, 0);
                 showTextSmall("S", 1, 0.4, 0.4, -7, -40, 0);
@@ -1326,7 +1326,7 @@ int main()
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(800, 600); // Size of the window
     glutInitWindowPosition(10, 10); // location of the window
-    glutCreateWindow("Forcey Bird"); // Create window with this name
+    glutCreateWindow("Clever Bird"); // Create window with this name
 	glutKeyboardFunc(my_keyboard);
     init(); // call initialize function
     glutDisplayFunc(myDisplay); // call display function
